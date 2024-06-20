@@ -1,0 +1,22 @@
+.wrap{
+    height: 100vh ;
+    border: 1px solid;
+}
+
+.inner-wrap{
+    height: 40%;
+    width: 100%;
+    border: 1px solid red;
+    padding-left:15% ;
+    padding-right:15% ;
+}
+
+.con{
+    border: 2px solid;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+
+    text-align: center;
+}
