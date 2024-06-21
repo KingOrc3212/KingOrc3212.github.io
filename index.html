@@ -13,7 +13,7 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">A Crazy cool navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -25,10 +25,16 @@
               <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" target="_blank" href="https://github.com/KingOrc3212">Github</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Disabled</a>
+              <a class="nav-link" href="#">Game</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Other game</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Stuff</a>
             </li>
           </ul>
         </div>
@@ -39,33 +45,35 @@
                 <div class="col-sm-3"></div>
                 <div class="col-sm-6">
                     <div class="con1">
-                        <p>Lisää tekstiä tähän</p>
+                        <h2>KingOrcs website of madness..</h2>
                     </div>
                 </div>
                 <div class="col-sm-3"></div>
             </div>
-
-
             <div class="row row-stuff2">
                 <div class="col-sm-3"></div>
                 <div class="col-sm-6 con2">
-                   <h3>Mini game</h3>
+                   <h3>Mini game</h3>                  
                     <br>
                     <div class="wrapper">
                         <header>Guess the number between 1 and 100</header>
                         <br>
-                        <p class="highlow" id="highlow">Your number is too high</p>
+                        <p class="highlow" id="highlow">Hints are shown here</p>                        
                         <div class="input-field">
-                            <input id="guess" type="numberGuess" size="4">
+                            <input id="guess" type="number" size="4" placeholder="0">
                             <button class="buttons" id="checkBtn">Check</button>
-                            <button class="buttons" id="retryBtn">Retry</button>
+                            <button class="buttons" id="retryBtn">Play again</button>
                         </div>
-                        <p>You have <span id="remainingGuesses">10</span> Chances left</p>
+                        <p>You have <span id="remainingGuesses">10</span> Guesses left</p>                    
+                        <p id="guessedNum"></p>
                     </div>
                 </div>
                 <div class="col-sm-3"></div>
-            </div>
+            </div>            
         </div>
+        <footer class="container-fluid text-center bg-dark footer-thing">
+          <h5>Footer</h5>
+        </footer>
     </div>
     <script src="script.js"></script>
 </body>

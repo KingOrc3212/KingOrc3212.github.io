@@ -1,17 +1,18 @@
 body{
-    min-height: 150vh;
+    min-height: 100vh;
 }
 
+
 .bg{
-    background-image: url("src/giphy.webp");
+    background-image: url("src/giphy2.webp");
     background-color: rgb(48, 49, 49);
     background-position: left top;
-    background-size: 15%;
-    min-height: 150vh;
+    background-size: 23%;
+    min-height: 100vh;
 }
 
 .wrap{
-    border: 1px solid;
+    border: 1px solid transparent;
     min-height: 150vh ;
 }
 
@@ -71,7 +72,20 @@ body{
 
 .buttons{
     border: 0px transparent;
-    background-color: rgb(172, 173, 185);
+    background-color: rgb(71, 180, 98);
     border-radius: 5px;
     text-align: center;
+    margin: 2%;
+    box-shadow: 0 6px #999;
+}
+
+.buttons:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.footer-thing {
+    height: 10vh;
+    color: rgb(216, 215, 215);
 }
