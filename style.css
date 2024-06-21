@@ -1,13 +1,18 @@
+body{
+    min-height: 150vh;
+}
+
 .bg{
     background-image: url("src/giphy.webp");
     background-color: rgb(48, 49, 49);
     background-position: left top;
     background-size: 15%;
+    min-height: 150vh;
 }
 
 .wrap{
-    height: 150vh ;
     border: 1px solid;
+    min-height: 150vh ;
 }
 
 .row-stuff1{
@@ -62,4 +67,11 @@
     background-color: rgba(186, 187, 182, 0.952);
     border-radius: 5px;
     outline: none;
+}
+
+.buttons{
+    border: 0px transparent;
+    background-color: rgb(172, 173, 185);
+    border-radius: 5px;
+    text-align: center;
 }
