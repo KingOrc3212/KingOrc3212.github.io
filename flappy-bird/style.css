@@ -1,0 +1,98 @@
+body{
+    /*min-height: 100vh;*/
+}
+
+
+.bg{
+    background-image: url("src/giphy2.webp");
+    background-color: rgb(48, 49, 49);
+    background-position: left top;
+    background-size: 25%;
+    min-height: 100vh;
+}
+
+.wrap{
+    border: 1px solid transparent;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.game{
+    margin-top: 2.5%;
+}
+
+.row-stuff1{
+    margin-top: 10%;
+}
+
+.row-stuff2{
+    margin-top: 15%;
+    height: 50%;
+}
+
+.con1{
+    border: 2px dotted;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+    text-align: center;
+    background-color: rgba(22, 22, 22, 0.911);
+    color: azure;
+}
+
+.con2{
+    border: 2px dotted;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+    text-align: center;
+    background-color: rgba(22, 22, 22, 0.973);
+    color: azure;
+}
+
+.k{
+    border: 1px solid black;
+    background-color: rgba(22, 22, 22, 0.993);
+    color: azure;
+    height: 20vh;
+    padding: 5px;
+    text-align: center;
+}
+.wrapper{
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 20%;
+    padding: 10px;
+}
+
+.check{
+    background-color: rgba(186, 187, 182, 0.952);
+    border-radius: 5px;
+    outline: none;
+}
+
+.buttons{
+    border: 0px transparent;
+    background-color: rgb(71, 180, 98);
+    border-radius: 5px;
+    text-align: center;
+    margin: 2%;
+    box-shadow: 0 6px #999;
+}
+
+.buttons:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.footer-thing {
+    height: 10vh;
+    color: rgb(216, 215, 215);
+}

@@ -1,0 +1,7 @@
+body{
+    text-align: center;
+}
+
+#gameBoard{
+    background-image: url("src/flappybirdbg.png");
+}
