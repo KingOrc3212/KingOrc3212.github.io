@@ -1,5 +1,6 @@
 /*  flappy bird code  */
 
+
 // board variables
 let board;
 let boardHeight = 640;
@@ -39,7 +40,7 @@ let gravity = 0.4 // gravity at which the bird is pulled down
 // game stuff
 let gameOver = false;
 let score = 0;
-let highScore = 0;
+let highScore = document.cookie;
 
 const retryBtn = document.getElementById("retryBtn");
 
@@ -127,8 +128,13 @@ function update() {
         context.fillText("Game Over",60,150);
     }
 
+    if (document.cookie  == 0){
+        highScore = 0;
+    }
+
     if (score > highScore) {
         highScore = score;
+        scoreCookie(highScore);
     }
 }
 
@@ -193,4 +199,9 @@ function collision(a, b) {
     a.x + a.width > b.x &&
     a.y < b.y + b.height &&
     a.y + a.height > b.y;
+}
+
+function scoreCookie(a) {
+    document.cookie = a + "; samesite=strict; secure; path=/flappy-bird;"; // 
+    let x = document.cookie; 
 }
