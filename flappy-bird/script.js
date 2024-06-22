@@ -202,6 +202,6 @@ function collision(a, b) {
 }
 
 function scoreCookie(a) {
-    document.cookie = a + "; samesite=strict; secure; path=/;"; // 
+    document.cookie = a + "; samesite=strict; domain=kingorc3212.github.io; secure; path=/;"; // 
     let x = document.cookie; 
 }
