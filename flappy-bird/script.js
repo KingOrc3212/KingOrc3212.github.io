@@ -202,6 +202,6 @@ function collision(a, b) {
 }
 
 function scoreCookie(a) {
-    document.cookie = a + "; samesite=strict; domain=kingorc3212.github.io; secure; path=/flappy-bird;"; // 
+    document.cookie = a + "; samesite=strict; domain=kingorc3212.github.io; secure; path=kingorc3212.github.io/flappy-bird;"; // 
     let x = document.cookie; 
 }
